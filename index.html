@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4375ff2d4cb64d05a5da7b56981813d9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4375ff2d4cb64d05a5da7b56981813d9" ></div>
+        
+</body>
+<script>    
+    
+            var map_4375ff2d4cb64d05a5da7b56981813d9 = L.map(
+                "map_4375ff2d4cb64d05a5da7b56981813d9",
+                {
+                    center: [54.591841, 22.201117],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9b9c1ba349d94abdbe0398a4d7288eb8 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4375ff2d4cb64d05a5da7b56981813d9);
+        
+    
+            var marker_834733a247244bdf8745606a7ac6736a = L.marker(
+                [54.591841, 22.201117],
+                {}
+            ).addTo(map_4375ff2d4cb64d05a5da7b56981813d9);
+        
+    
+        var popup_a1681e572a974e6081bbc59db64a4634 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1184109c59842e5af9a49d44a696dad = $(`<div id="html_f1184109c59842e5af9a49d44a696dad" style="width: 100.0%; height: 100.0%;">Me</div>`)[0];
+            popup_a1681e572a974e6081bbc59db64a4634.setContent(html_f1184109c59842e5af9a49d44a696dad);
+        
+
+        marker_834733a247244bdf8745606a7ac6736a.bindPopup(popup_a1681e572a974e6081bbc59db64a4634)
+        ;
+
+        
+    
+    
+            marker_834733a247244bdf8745606a7ac6736a.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5a0393f0daa47f1b4df2fa563feb81f = L.marker(
+                [55.975458, 37.151508],
+                {}
+            ).addTo(map_4375ff2d4cb64d05a5da7b56981813d9);
+        
+    
+        var popup_392c9b5c8a7d494a9cadde7a0c385dd1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f6f093a88ce43ada9928d4a4e96ed3a = $(`<div id="html_7f6f093a88ce43ada9928d4a4e96ed3a" style="width: 100.0%; height: 100.0%;">Бар «Все свои»</div>`)[0];
+            popup_392c9b5c8a7d494a9cadde7a0c385dd1.setContent(html_7f6f093a88ce43ada9928d4a4e96ed3a);
+        
+
+        marker_e5a0393f0daa47f1b4df2fa563feb81f.bindPopup(popup_392c9b5c8a7d494a9cadde7a0c385dd1)
+        ;
+
+        
+    
+    
+            marker_e5a0393f0daa47f1b4df2fa563feb81f.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9017936b4a524654937dda247a08c506 = L.marker(
+                [55.984565, 37.160116],
+                {}
+            ).addTo(map_4375ff2d4cb64d05a5da7b56981813d9);
+        
+    
+        var popup_81c6efc14e6b4fe9b7e74c9971480a27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df11389ec7304afdbaf3d240257501eb = $(`<div id="html_df11389ec7304afdbaf3d240257501eb" style="width: 100.0%; height: 100.0%;">Бар «ДЖАНГО»</div>`)[0];
+            popup_81c6efc14e6b4fe9b7e74c9971480a27.setContent(html_df11389ec7304afdbaf3d240257501eb);
+        
+
+        marker_9017936b4a524654937dda247a08c506.bindPopup(popup_81c6efc14e6b4fe9b7e74c9971480a27)
+        ;
+
+        
+    
+    
+            marker_9017936b4a524654937dda247a08c506.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b41f5e31b0d4b67801ef4ea7cb258cb = L.marker(
+                [55.978869, 37.162689],
+                {}
+            ).addTo(map_4375ff2d4cb64d05a5da7b56981813d9);
+        
+    
+        var popup_ca14931a414b4934af6b7504e5a3e274 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae22011298fb41ed954c99212292319c = $(`<div id="html_ae22011298fb41ed954c99212292319c" style="width: 100.0%; height: 100.0%;">Мята Lounge</div>`)[0];
+            popup_ca14931a414b4934af6b7504e5a3e274.setContent(html_ae22011298fb41ed954c99212292319c);
+        
+
+        marker_5b41f5e31b0d4b67801ef4ea7cb258cb.bindPopup(popup_ca14931a414b4934af6b7504e5a3e274)
+        ;
+
+        
+    
+    
+            marker_5b41f5e31b0d4b67801ef4ea7cb258cb.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_622ed93e82484e9883c4fb84780ca595 = L.marker(
+                [55.980641, 37.171216],
+                {}
+            ).addTo(map_4375ff2d4cb64d05a5da7b56981813d9);
+        
+    
+        var popup_f3e97f1282fe4d93b20267fb5b1dec3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b9086c7d877433198c6838dc5168876 = $(`<div id="html_7b9086c7d877433198c6838dc5168876" style="width: 100.0%; height: 100.0%;">Бар «DUBAI»</div>`)[0];
+            popup_f3e97f1282fe4d93b20267fb5b1dec3d.setContent(html_7b9086c7d877433198c6838dc5168876);
+        
+
+        marker_622ed93e82484e9883c4fb84780ca595.bindPopup(popup_f3e97f1282fe4d93b20267fb5b1dec3d)
+        ;
+
+        
+    
+    
+            marker_622ed93e82484e9883c4fb84780ca595.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72f3cd50901a4bf99aeaff642d286f75 = L.marker(
+                [55.306107, 37.197713],
+                {}
+            ).addTo(map_4375ff2d4cb64d05a5da7b56981813d9);
+        
+    
+        var popup_47c0157bd8584d2bbfaa6959babb55a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2413f78de34433b832c2229b2e54c05 = $(`<div id="html_d2413f78de34433b832c2229b2e54c05" style="width: 100.0%; height: 100.0%;">Бар столовой № 1</div>`)[0];
+            popup_47c0157bd8584d2bbfaa6959babb55a0.setContent(html_d2413f78de34433b832c2229b2e54c05);
+        
+
+        marker_72f3cd50901a4bf99aeaff642d286f75.bindPopup(popup_47c0157bd8584d2bbfaa6959babb55a0)
+        ;
+
+        
+    
+    
+            marker_72f3cd50901a4bf99aeaff642d286f75.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
